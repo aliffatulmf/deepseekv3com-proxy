@@ -1,0 +1,16 @@
+[project]
+name = "deepseek-chat-proxy"
+version = "0.1.0"
+description = "DeepSeek Chat Proxy is a Flask-based API proxy that provides OpenAI-compatible interface for DeepSeek chat services with rate limiting, CORS support, and logging system."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask-cors>=5.0.0",
+    "httpx>=0.28.1",
+    "nodriver>=0.39",
+    "openai>=1.59.6",
+    "waitress>=3.0.2",
+]
+
+[dependency-groups]
+dev = []
